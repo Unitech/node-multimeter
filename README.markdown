@@ -98,6 +98,14 @@ multi.charm
 The [charm](https://github.com/substack/node-charm) object used internally to
 draw the progress bars.
 
+
+styling
+=======
+
+You can stylize progress with before, after, solid and empty options or using 
+predefined styles in `multi.styles` atribute. You can also use 
+`multi.setDefaultStyle(style)`.
+
 install
 =======
 

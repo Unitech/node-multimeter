@@ -72,5 +72,13 @@ var exports = module.exports = function (c) {
         });
     })();
 
+    multi.styles=require('./lib/styles');
+
+    multi.setDefaultStyle=function(style){
+      Bar.defaultStyle=style;
+    }
+
+    Bar.defaultStyle=multi.styles.pipes;
+
     return multi;
 };
